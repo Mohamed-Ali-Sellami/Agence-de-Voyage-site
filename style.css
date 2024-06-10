@@ -1,0 +1,122 @@
+/*Navbar*/
+.navbar {
+    height: 100px;
+}
+.navbar-brand img {
+height: 150px;
+width: 150px;
+
+}
+
+.navbar-brand{
+    Display: flex ;
+    align-items: center;
+}
+.navbar-brand h1 {
+font-weight: bold;
+text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+}
+.navbar-brand ul  {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item {
+    display: flex;
+    font-weight: bold;
+    justify-content: space-around;
+}
+/*Section 1*/ 
+.box1{
+    width: 100%;
+    min-height: 100vh;
+    display:flex ;
+    align-items: center;
+    background: url(./Images/maldive\ backgound.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center ;  
+}
+.text{
+   
+    width: 100%;
+    height: 100%;
+    display: grid;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+}
+.text h1 {
+    font-weight: bold;
+    font-size: 100px;
+}
+.btn {
+    width: 100px;
+    right: 100px;
+    position: relative;
+    left: 15em;    
+        }
+        /*Section2 */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+} 
+.box2{
+    background-color:#0d6efd;
+}
+.box2 h1 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+}
+.card-body {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+}
+.btn {
+    padding-bottom: 25px;
+}
+
+.tours h1 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    color: #0d6efd;
+    padding: 20px;
+    justify-content: center;
+}
+.contact {
+
+background-color:#0d6efd ;
+
+}
+.contact h1 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+
+}
+/*footer*/
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.footer a
+{
+    text-decoration: none;
+    padding-bottom: 25px ;
+    color: aliceblue;
+}
+.social-icones {
+
+    justify-content: space-around;
+}
